@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+.about-container {
+  background-color: white;
+  padding-top: 3rem;
+  @media only screen and (max-width: 600px) {
+    height: 100%;
+    padding:0 0 5rem 0;
+  }
+  min-height: 100vh;
+  overflow: hidden;
+
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+
+  @media only screen and (max-width: 1100px) {
+    display: flex;
+    flex-direction: column;
+
+  }
+}
+.about-title {
+  position: relative;
+  text-align: start;
+  h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+}
+.about-content {
+  flex-direction: column;
+  text-align: start;
+  width: 80%;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  row-gap: 1.5rem;
+  margin: auto 0;
+  @media only screen and (max-width: 1300px) {
+    width: 100%;
+  }
+  p {
+    font-family: 'Roboto Condensed', sans-serif;
+
+    @media only screen and (max-width: 1100px) {
+      font-size: 15px;
+    }
+  }
+  
+}
+.about-image {
+  justify-self: flex-end;
+  @media only screen and (max-width: 1300px) {
+    align-items: center;
+    padding-top: 5%;
+    padding-left: 25%;
+  }
+
+  
+  img {
+    object-fit: cover;
+    object-position: bottom;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 10px 40px -2px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    @media only screen and (max-width: 1300px) {
+      width: 70%;
+      height: 70%;
+    }
+    @media only screen and (max-width: 600px) {
+      width: 60%;
+      height: 60%;
+    }
+  }
+}
+.about-tech { 
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  padding-top: 2rem;
+  justify-items: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  p {
+    font-size: 2rem;
+    font-weight: bolder;
+    padding-bottom: 1rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    @media only screen and (max-width: 1300px) {
+      font-size: 1rem;
+    }
+
+  }
+}
+.textImage {
+  height: 140px;
+  @media only screen and (max-width: 1300px) {
+    height: 60px;
+    gap: 30%;
+  }
+}
+.about-slider {
+  background-color: white;
+  border-color: black;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 10px 40px -2px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  height: 150px;
+  border-radius: 16px;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+  justify-items: center;
+  overflow: hidden;
+  @media only screen and (max-width: 1100px) {
+   height: 60px;
+   width: 100%;
+  
+  }
+  img {
+    height: 100px;
+    width: 20px;
+    @media only screen and (max-width: 1100px) {
+      height: 40px;
+    }
+  }
+}
+.cards-container {
+  transition: right 2s ease;
+  overflow: hidden;
+}
+.about-imagegap {
+  gap: 96px;
+  @media only screen and (max-width: 1100px) {
+    gap: 5%;
+   
+   }
+}

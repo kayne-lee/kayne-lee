@@ -1,0 +1,22 @@
+.technologies {
+    height: 42px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    @media only screen and (max-width: 1300px) {
+        height: 20px;
+    }
+  }
+  .cards-container {
+    transition: right 1s ease;
+    overflow: hidden;
+    img {
+      
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 10px 40px -2px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+      @media only screen and (max-width: 1300px) {
+        height: 20px;
+      }
+      
+    }
+  }

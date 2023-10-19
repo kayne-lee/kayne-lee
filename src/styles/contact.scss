@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+.contact-container {
+  @media only screen and (max-width: 600px) {
+    padding: 3rem 0;
+  }
+}
+.contact {
+  row-gap: 1.5rem;
+  position: relative;
+
+  h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    @media only screen and (max-width: 1100px) {
+      font-size: 200%;
+     
+     }
+  }
+
+  h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    @media only screen and (max-width: 1100px) {
+      font-size: 47%;
+     
+     }
+  }
+
+  p {
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+    font-size: 18px;
+    font-family: 'Roboto Condensed', sans-serif;
+    @media only screen and (max-width: 1100px) {
+      font-size: 70%;
+     
+     }
+  }
+}
