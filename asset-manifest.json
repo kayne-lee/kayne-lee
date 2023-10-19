@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.0250dbf1.css",
-    "main.js": "/static/js/main.90e34708.js",
-    "static/media/Profile_Picture.jpg": "/static/media/Profile_Picture.b7b27ea4f8a1552c31a0.jpg",
-    "static/media/WORDLE.png": "/static/media/WORDLE.844fdfcff0f75b56394e.png",
-    "static/media/C.png": "/static/media/C.56b146ae4d89bcd7714f.png",
-    "static/media/python.png": "/static/media/python.1eaaad356f1e20a2540f.png",
-    "static/media/react.png": "/static/media/react.f6b89d232c9bc9f828e5.png",
-    "static/media/PACMAN.png": "/static/media/PACMAN.d928c1907bbd1753e0e7.png",
-    "static/media/ICONS.png": "/static/media/ICONS.e71b4684aa3a9e5ae746.png",
-    "static/media/css.png": "/static/media/css.e45638344f12f3855ca0.png",
-    "static/media/QUANTT.png": "/static/media/QUANTT.51ff692125f2a7ce047a.png",
-    "static/media/js.png": "/static/media/js.ac9e504211b46cfb0118.png",
-    "static/media/html.png": "/static/media/html.25a4641e6533a3b1ce90.png",
-    "static/media/QMIND.png": "/static/media/QMIND.ba9dd328ff240fe2bd8e.png",
-    "static/media/next.png": "/static/media/next.e01278f5cd5f34baadad.png",
-    "static/media/node.png": "/static/media/node.a944ef19fe84ba7371f2.png",
-    "index.html": "/index.html",
-    "main.0250dbf1.css.map": "/static/css/main.0250dbf1.css.map",
-    "main.90e34708.js.map": "/static/js/main.90e34708.js.map"
+    "main.css": "/kayneLeeWebsite/static/css/main.0250dbf1.css",
+    "main.js": "/kayneLeeWebsite/static/js/main.009d6b3c.js",
+    "static/media/Profile_Picture.jpg": "/kayneLeeWebsite/static/media/Profile_Picture.b7b27ea4f8a1552c31a0.jpg",
+    "static/media/WORDLE.png": "/kayneLeeWebsite/static/media/WORDLE.844fdfcff0f75b56394e.png",
+    "static/media/C.png": "/kayneLeeWebsite/static/media/C.56b146ae4d89bcd7714f.png",
+    "static/media/python.png": "/kayneLeeWebsite/static/media/python.1eaaad356f1e20a2540f.png",
+    "static/media/react.png": "/kayneLeeWebsite/static/media/react.f6b89d232c9bc9f828e5.png",
+    "static/media/PACMAN.png": "/kayneLeeWebsite/static/media/PACMAN.d928c1907bbd1753e0e7.png",
+    "static/media/ICONS.png": "/kayneLeeWebsite/static/media/ICONS.e71b4684aa3a9e5ae746.png",
+    "static/media/css.png": "/kayneLeeWebsite/static/media/css.e45638344f12f3855ca0.png",
+    "static/media/QUANTT.png": "/kayneLeeWebsite/static/media/QUANTT.51ff692125f2a7ce047a.png",
+    "static/media/js.png": "/kayneLeeWebsite/static/media/js.ac9e504211b46cfb0118.png",
+    "static/media/html.png": "/kayneLeeWebsite/static/media/html.25a4641e6533a3b1ce90.png",
+    "static/media/QMIND.png": "/kayneLeeWebsite/static/media/QMIND.ba9dd328ff240fe2bd8e.png",
+    "static/media/next.png": "/kayneLeeWebsite/static/media/next.e01278f5cd5f34baadad.png",
+    "static/media/node.png": "/kayneLeeWebsite/static/media/node.a944ef19fe84ba7371f2.png",
+    "index.html": "/kayneLeeWebsite/index.html",
+    "main.0250dbf1.css.map": "/kayneLeeWebsite/static/css/main.0250dbf1.css.map",
+    "main.009d6b3c.js.map": "/kayneLeeWebsite/static/js/main.009d6b3c.js.map"
   },
   "entrypoints": [
     "static/css/main.0250dbf1.css",
-    "static/js/main.90e34708.js"
+    "static/js/main.009d6b3c.js"
   ]
 }
