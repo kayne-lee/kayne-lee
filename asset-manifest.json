@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/kayneLeeWebsite/static/css/main.0250dbf1.css",
-    "main.js": "/kayneLeeWebsite/static/js/main.009d6b3c.js",
+    "main.css": "/kayneLeeWebsite/static/css/main.9cbfcc42.css",
+    "main.js": "/kayneLeeWebsite/static/js/main.3edbf5d7.js",
     "static/media/Profile_Picture.jpg": "/kayneLeeWebsite/static/media/Profile_Picture.b7b27ea4f8a1552c31a0.jpg",
     "static/media/WORDLE.png": "/kayneLeeWebsite/static/media/WORDLE.844fdfcff0f75b56394e.png",
     "static/media/C.png": "/kayneLeeWebsite/static/media/C.56b146ae4d89bcd7714f.png",
@@ -17,11 +17,11 @@
     "static/media/next.png": "/kayneLeeWebsite/static/media/next.e01278f5cd5f34baadad.png",
     "static/media/node.png": "/kayneLeeWebsite/static/media/node.a944ef19fe84ba7371f2.png",
     "index.html": "/kayneLeeWebsite/index.html",
-    "main.0250dbf1.css.map": "/kayneLeeWebsite/static/css/main.0250dbf1.css.map",
-    "main.009d6b3c.js.map": "/kayneLeeWebsite/static/js/main.009d6b3c.js.map"
+    "main.9cbfcc42.css.map": "/kayneLeeWebsite/static/css/main.9cbfcc42.css.map",
+    "main.3edbf5d7.js.map": "/kayneLeeWebsite/static/js/main.3edbf5d7.js.map"
   },
   "entrypoints": [
-    "static/css/main.0250dbf1.css",
-    "static/js/main.009d6b3c.js"
+    "static/css/main.9cbfcc42.css",
+    "static/js/main.3edbf5d7.js"
   ]
 }
