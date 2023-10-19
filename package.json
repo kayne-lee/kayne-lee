@@ -20,6 +20,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -47,6 +49,7 @@
     "@reduxjs/toolkit": "^1.8.5",
     "@types/react-redux": "^7.1.24",
     "autoprefixer": "^10.4.15",
+    "gh-pages": "^6.0.0",
     "postcss": "^8.4.28",
     "react-redux": "^8.0.2",
     "tailwindcss": "^3.3.3",
