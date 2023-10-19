@@ -21,7 +21,7 @@ function LandingPage() {
         </div>            
         <div className="resume">
           <div className="resume-text">
-            <a href="Resume - Kayne Lee.pdf" download="Kayne Lee - Resume" >Resume</a>
+            <a href="Resume - Kayne Lee.pdf">Resume</a>
             </div>
         </div>            
 
