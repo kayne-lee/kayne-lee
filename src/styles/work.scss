@@ -5,7 +5,6 @@
   flex-direction: row;
   gap: 30px;
   flex-wrap: wrap;
-  background-color: white;
   @media only screen and (max-width: 600px) {
     height: 100%;
     padding:0 0 5rem 0;
@@ -27,7 +26,7 @@
 }
 
 .myCard1 {
-  background-color: white;
+
   width: 40%;
   height: 254px;
   perspective: 800px;
@@ -39,7 +38,7 @@
   
 }
 .myCard2 {
-  background-color: white;
+
   width: 40%;
   height: 254px;
   perspective: 800px;
@@ -51,7 +50,7 @@
 }
 
 .myCard3 {
-  background-color:white;
+
   width: 40%;
   height: 254px;
   perspective: 800px;
@@ -64,7 +63,7 @@
 }
 
 .myCard4 {
-  background-color: white;
+
   width: 40%;
   height: 254px;
   perspective: 800px;
