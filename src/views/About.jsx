@@ -14,7 +14,7 @@ function about() {
         <div className="about-grid">
           <div className="about-content">
             <p>Hi I'm Kayne Lee, a second year student at Queen's University pursuing a Computer Engineering Degree. I am a Web Dev Coordinator at QMIND, Development Director at QWeb, and a Algorthmic Trader at QUANTT.</p>
-            <p className="pt-10">I am very ambiotious on learning new things and looking for new opportunities to grow and learn. I aspire to be a software engineer in the future and can apply my skills in the real world.</p>
+            <p className="pt-10">I am very ambitious on learning new things and looking for new opportunities to grow and learn. I aspire to be a software engineer in the future and can apply my skills in the real world.</p>
           </div>
           <div className="about-image">
             <img src={Profile_Picture} alt="Kayne Lee" />
