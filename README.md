@@ -3,9 +3,9 @@
 </div>
 <div id="badges" align="center">
   <a href="https://www.linkedin.com/in/kaynelee/">
-    <img src="https://img.shields.io/badge/LinkedIn-white?style=for-the-badge&logo=linkedin&logoColor=blue" alt="LinkedIn Badge" height="20"/>
+    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge" height="20"/>
   </a>
   <a href="kaynelee.com">
-    <img src="https://img.shields.io/badge/kaynelee.com-blue?style=for-the-badge" alt="Website" height="20"/>
+    <img src="https://img.shields.io/badge/kaynelee.com-red?style=for-the-badge" alt="Website" height="20"/>
   </a>
 </div>
