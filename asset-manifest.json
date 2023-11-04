@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.91bb35dc.css",
-    "main.js": "/static/js/main.01955003.js",
+    "main.css": "/static/css/main.6a4086f5.css",
+    "main.js": "/static/js/main.d3354bea.js",
     "static/media/Profile_Picture.jpg": "/static/media/Profile_Picture.b7b27ea4f8a1552c31a0.jpg",
     "static/media/WORDLE.png": "/static/media/WORDLE.844fdfcff0f75b56394e.png",
     "static/media/C.png": "/static/media/C.56b146ae4d89bcd7714f.png",
@@ -11,17 +11,19 @@
     "static/media/ICONS.png": "/static/media/ICONS.e71b4684aa3a9e5ae746.png",
     "static/media/css.png": "/static/media/css.e45638344f12f3855ca0.png",
     "static/media/QUANTT.png": "/static/media/QUANTT.51ff692125f2a7ce047a.png",
+    "static/media/wave.png": "/static/media/wave.ec33146df183e86a22e3.png",
     "static/media/js.png": "/static/media/js.ac9e504211b46cfb0118.png",
     "static/media/html.png": "/static/media/html.25a4641e6533a3b1ce90.png",
     "static/media/QMIND.png": "/static/media/QMIND.ba9dd328ff240fe2bd8e.png",
+    "static/media/phone.png": "/static/media/phone.aec5ab0a511b6eecea35.png",
     "static/media/next.png": "/static/media/next.e01278f5cd5f34baadad.png",
     "static/media/node.png": "/static/media/node.a944ef19fe84ba7371f2.png",
     "index.html": "/index.html",
-    "main.91bb35dc.css.map": "/static/css/main.91bb35dc.css.map",
-    "main.01955003.js.map": "/static/js/main.01955003.js.map"
+    "main.6a4086f5.css.map": "/static/css/main.6a4086f5.css.map",
+    "main.d3354bea.js.map": "/static/js/main.d3354bea.js.map"
   },
   "entrypoints": [
-    "static/css/main.91bb35dc.css",
-    "static/js/main.01955003.js"
+    "static/css/main.6a4086f5.css",
+    "static/js/main.d3354bea.js"
   ]
 }
