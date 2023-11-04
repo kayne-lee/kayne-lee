@@ -17,7 +17,7 @@ function Contact() {
             I'm currently looking for opportuntities to expand my knowledge and skills in front-end development, full-stack develpment, and finance. 
           </p>
         </div>
-        <div>Copyright @ 2023 by Kayne Lee</div>
+        <div className="pb-[100px]">Copyright @ 2023 by Kayne Lee</div>
       </Container>
     </div>
   );
