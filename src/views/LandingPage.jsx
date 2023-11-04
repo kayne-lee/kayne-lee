@@ -1,9 +1,10 @@
 import React from "react";
+import WAVE from "../assets/wave.png";
 
 function LandingPage() {
   return (
       <div id="landingPage" className="landing-page-container">
-        <p>Hey! 👋 I'm</p>
+        <div>Hey! <img src={WAVE} alt="Wave Emoji" /> I'm</div>
         <section class="animation">
           <div class="first"><div>Kayne Lee</div></div>
           <div class="second"><div>A Software Engineer</div></div>
@@ -24,6 +25,7 @@ function LandingPage() {
             <a href="./Resume.pdf" target="_blank">Resume</a>
             </div>
         </div>            
+        <button className="1"></button>
 
        
 
