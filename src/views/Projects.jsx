@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Container from "../components/Container";
 import { PROJECTS } from "../data/projects";
+import { FiGithub, FiExternalLink } from "react-icons/fi";
 function Projects() {
   const [project, setProject] = useState(PROJECTS[0]);
 
@@ -14,7 +15,17 @@ function Projects() {
           <div className="projects-details">
             <div className="projects-flex">
               <div className="w-[50%]">
-                <div className="projects-name">{project.name}</div>
+                <div className="projects-name">
+                  <div className="project-name-grid">{project.name}</div>
+                  <div className="project-links">
+                  <a href={project.github} target="notarget">
+                    <FiGithub />
+                  </a>
+                  <a href={project.website} target="notarget">
+                    <FiExternalLink />
+                  </a>
+                  </div>
+                </div>
                 <div className="projects-technologies">
                 {project.technologies.map((tech) => (
                   <p>{tech}</p>
