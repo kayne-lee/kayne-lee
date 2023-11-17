@@ -20,8 +20,8 @@ function about() {
             <img src={Profile_Picture} alt="Kayne Lee" />
           </div>
         </div>
-        <div className="about-tech pb-[100px]">
-            <div>
+        <div className="about-tech pb-[100px] ">
+            <div className="pb-[50px] pt-[50px]">
               <p>Frameworks & Languages I have worked with</p>
             </div>
             <Technologies cards={TECH} slideLeft={true} />

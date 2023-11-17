@@ -95,6 +95,9 @@
   }
 }
 .textImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 140px;
   @media only screen and (max-width: 1300px) {
     height: 60px;

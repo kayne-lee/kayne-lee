@@ -104,5 +104,53 @@ export const TECH = [
     {
         image: REACT,
     },
+    {
+        image: C,
+    },
+    {
+        image: CSS,
+    },
+    {
+        image: HTML,
+    },
+    {
+        image: JS,
+    },
+    {
+        image: NEXT,
+    },
+    {
+        image: NODE,
+    },
+    {
+        image: PYTHON,
+    },
+    {
+        image: REACT,
+    },
+    {
+        image: C,
+    },
+    {
+        image: CSS,
+    },
+    {
+        image: HTML,
+    },
+    {
+        image: JS,
+    },
+    {
+        image: NEXT,
+    },
+    {
+        image: NODE,
+    },
+    {
+        image: PYTHON,
+    },
+    {
+        image: REACT,
+    },
 
 ];

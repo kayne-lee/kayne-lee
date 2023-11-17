@@ -23,8 +23,8 @@ function Technologies({ cards, slideLeft }) {
           className={`max-w-100% flex about-imagegap absolute ${slideLeft ? "" : "right-0"}`}
         >
           {cards.map((card, i) => (
-            <div key={i} className="flex flex-col justify-center">
-              <div className="textImage flex items-center  w-[80%]">
+            <div key={i} className="flex flex-col justify-center items-center">
+              <div className="textImage flex items-center justify-center w-[80%]">
                 <img src={card.image} alt="" className=" !w-[auto] !max-w-none " />
               </div>
             </div>
