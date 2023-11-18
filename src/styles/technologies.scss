@@ -1,22 +1,45 @@
-.technologies {
-    height: 42px;
-    width: 100px;
-    justify-content: center;
+  .tech {
+    display: flex;
+    flex-direction: row;
     align-items: center;
-    overflow: hidden;
-    @media only screen and (max-width: 1300px) {
-        height: 20px;
-    }
+    justify-content: center;
+    border-color: black;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 10px 40px -2px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    gap: 7%;
+    height: 170px;
+    border-radius: 10px;
+    @media only screen and (max-width: 1100px) and (min-width: 921px){
+      height: 150px;
+     }
+    @media only screen and (max-width: 920px) and (min-width: 771px){
+      height: 140px
+     }
+     @media only screen and (max-width: 770px) and (min-width: 651px){
+      height: 120px
+     }
+     @media only screen and (max-width: 650px) and (min-width: 491px){
+      height: 100px
+     }
+     @media only screen and (max-width: 490px){
+      height: 75px
+     }
   }
-  .cards-container {
-    transition: right 1s ease;
-    overflow: hidden;
-    img {
-      
-      box-shadow: rgba(50, 50, 93, 0.25) 0px 10px 40px -2px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-      @media only screen and (max-width: 1300px) {
-        height: 20px;
-      }
-      
-    }
+
+  .tech-image {
+    height: 80px;
+    @media only screen and (max-width: 1100px) and (min-width: 921px){
+      height: 70px
+     }
+    @media only screen and (max-width: 920px) and (min-width: 771px){
+      height: 60px
+     }
+    @media only screen and (max-width: 770px) and (min-width: 651px){
+      height: 50px
+     }
+     @media only screen and (max-width: 650px) and (min-width: 491px){
+      height: 37px
+     }
+     @media only screen and (max-width: 490px){
+      height: 25px
+     }
   }

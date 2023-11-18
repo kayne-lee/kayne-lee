@@ -2,6 +2,7 @@ import React from "react";
 import Container from "../components/Container";
 import Profile_Picture from "../assets/Profile_Picture.jpg";
 import Technologies from "./Technologies.jsx";
+import Tech from "./Tech.jsx";
 import { TECH } from "../data/images";
 function about() {
   return (
@@ -24,7 +25,9 @@ function about() {
             <div className="pb-[50px] pt-[50px]">
               <p>Frameworks & Languages I have worked with</p>
             </div>
-            <Technologies cards={TECH} slideLeft={true} />
+            {/* <Technologies cards={TECH} slideLeft={true} /> */}
+            <Tech />
+
           </div>
       </Container>
     </div>

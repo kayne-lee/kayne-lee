@@ -28,101 +28,6 @@
   }
 }
 
-.myCard1 {
-
-  width: 30%;
-  height: 300px;
-  perspective: 800px;
-  margin: auto;
-  @media only screen and (max-width: 1100px) {
-    width: 100%;
-   
-   }
-  
-}
-.myCard2 {
-
-  width: 30%;
-  height: 300px;
-  perspective: 800px;
-  margin: auto;
-  @media only screen and (max-width: 1100px) {
-    width: 100%;
-   
-   }
-}
-
-.myCard3 {
-
-  width: 30%;
-  height: 300px;
-  perspective: 800px;
-  margin: auto;
-  @media only screen and (max-width: 1100px) {
-    width: 100%;
-   
-   }
-  
-}
-
-.myCard4 {
-
-  width: 30%;
-  height: 300px;
-  perspective: 800px;
-  margin: auto;
-  @media only screen and (max-width: 1100px) {
-    width: 100%;
-   
-   }
-}
-.myCard5 {
-
-  width: 30%;
-  height: 300px;
-  perspective: 800px;
-  margin: auto;
-  @media only screen and (max-width: 1100px) {
-    width: 100%;
-   
-   }
-}
-
-
-.title {
-  font-size: 1em;
-  font-weight: 700;
-  text-align: center;
-  margin: 0;
-
-}
-
-.innerCard {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-  cursor: pointer;
-}
-
-.myCard1:hover .innerCard {
-  transform: rotateY(180deg) scale(1.15, 1.15);
-}
-.myCard2:hover .innerCard {
-  transform: rotateY(180deg) scale(1.15, 1.15);
-}
-.myCard3:hover .innerCard {
-  transform: rotateY(180deg) scale(1.15, 1.15);
-}
-.myCard4:hover .innerCard {
-  transform: rotateY(180deg) scale(1.15, 1.15);
-}
-.myCard5:hover .innerCard {
-  transform: rotateY(180deg) scale(1.15, 1.15);
-}
-
 .frontSide, .backSide {
   position: absolute;
   display: flex;
@@ -134,7 +39,7 @@
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   border: 1px solid rgba(255, 255, 255, 0.8);
-  border-radius: 1rem;
+  border-radius: 10px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 10px 40px -2px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
   color: black;
   // box-shadow: 0 0 1em rgba(255, 255, 255, 0.5);
@@ -187,7 +92,7 @@
   height: 110%;
   position: absolute;
   z-index: -1;
-  border-radius: 1em;
+  border-radius: 10px;
   filter: blur(20px);
   animation: animate 5s linear infinite;
 }
@@ -209,7 +114,7 @@
   width: 30%;
   height: 300px;
   position: relative;
-  border-radius: 40px;
+  border-radius: 10px;
   transition: all 0.8s;
   perspective: 600px;
   perspective-origin: center bottom;
@@ -224,7 +129,7 @@
 .upper-part {
   width: 100%;
   height: 75%;
-  border-radius: 40px 40px 0 0;
+  border-radius: 10px 10px 0 0;
   position: relative;
   transform-style: preserve-3d;
   transition: all 0.9s;
@@ -242,7 +147,7 @@
   width: 100%;
   height: 100%;
   padding: 15px;
-  border-radius: 40px 40px 0 0;
+  border-radius: 10px 10px 0 0;
   font-weight: bold;
   z-index: 2;
   backface-visibility: hidden;
@@ -274,7 +179,7 @@
 .lower-part {
   width: 100%;
   height: 30%;
-  border-radius: 0 0 40px 40px;
+  border-radius: 0 0 10px 10px;
   position: relative;
   transform-style: preserve-3d;
   transform-origin: center top;
@@ -290,7 +195,7 @@
   color: black;
   font-weight: bold;
   position: absolute;
-  border-radius: 0 0 40px 40px;
+  border-radius: 0 0 10px 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -302,7 +207,7 @@
 
 .lower-part-back {
   backface-visibility: visible;
-  border-radius: 40px;
+  border-radius: 10px;
   color: black;
   background-color: white;
   transform: rotateX(180deg);
@@ -321,6 +226,6 @@
 }
 
 .card1:hover > .lower-part > .lower-part-back {
-  border-radius: 0 0 40px 40px;
+  border-radius: 0 0 10px 10px;
   
 }
