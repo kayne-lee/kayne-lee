@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5cc04915.css",
-    "main.js": "/static/js/main.b0c54f1c.js",
+    "main.css": "/static/css/main.758348f6.css",
+    "main.js": "/static/js/main.17574ad8.js",
     "static/media/Profile_Picture.jpg": "/static/media/Profile_Picture.b7b27ea4f8a1552c31a0.jpg",
     "static/media/WORDLE.png": "/static/media/WORDLE.844fdfcff0f75b56394e.png",
     "static/media/C.png": "/static/media/C.56b146ae4d89bcd7714f.png",
@@ -17,17 +17,18 @@
     "static/media/QUANTT.png": "/static/media/QUANTT.51ff692125f2a7ce047a.png",
     "static/media/wave.png": "/static/media/wave.ec33146df183e86a22e3.png",
     "static/media/js.png": "/static/media/js.ac9e504211b46cfb0118.png",
+    "static/media/BITCOIN.png": "/static/media/BITCOIN.3c09e23cb048ec6da3b8.png",
     "static/media/html.png": "/static/media/html.25a4641e6533a3b1ce90.png",
     "static/media/QMIND.png": "/static/media/QMIND.ba9dd328ff240fe2bd8e.png",
     "static/media/phone.png": "/static/media/phone.aec5ab0a511b6eecea35.png",
     "static/media/next.png": "/static/media/next.e01278f5cd5f34baadad.png",
     "static/media/node.png": "/static/media/node.a944ef19fe84ba7371f2.png",
     "index.html": "/index.html",
-    "main.5cc04915.css.map": "/static/css/main.5cc04915.css.map",
-    "main.b0c54f1c.js.map": "/static/js/main.b0c54f1c.js.map"
+    "main.758348f6.css.map": "/static/css/main.758348f6.css.map",
+    "main.17574ad8.js.map": "/static/js/main.17574ad8.js.map"
   },
   "entrypoints": [
-    "static/css/main.5cc04915.css",
-    "static/js/main.b0c54f1c.js"
+    "static/css/main.758348f6.css",
+    "static/js/main.17574ad8.js"
   ]
 }
