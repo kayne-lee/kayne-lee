@@ -107,13 +107,13 @@
   .projects-name {
     width: 200%;
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 70px;
+    font-size: 60px;
     text-align: left;
     font-weight: bolder;
     display: grid;
     grid-template-columns: auto auto;
     @media only screen and (max-width: 1100px) {
-      font-size: 150%;
+      font-size: 140%;
      
      }
   }
