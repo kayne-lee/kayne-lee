@@ -1,9 +1,8 @@
 import React from "react";
 import Container from "../components/Container";
 import Profile_Picture from "../assets/Profile_Picture.jpg";
-import Technologies from "./Technologies.jsx";
 import Tech from "./Tech.jsx";
-import { TECH } from "../data/images";
+
 function about() {
   return (
     <div id="about" className="about-container">
@@ -22,10 +21,9 @@ function about() {
           </div>
         </div>
         <div className="about-tech pb-[100px] ">
-            <div className="pb-[50px] pt-[50px]">
+            <div className="pb-[40px] pt-[40px]">
               <p>Frameworks & Languages I have worked with</p>
             </div>
-            {/* <Technologies cards={TECH} slideLeft={true} /> */}
             <Tech />
 
           </div>

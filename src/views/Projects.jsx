@@ -48,7 +48,7 @@ function Projects() {
                 }}
                 style={{
                   fontWeight: project.name === work.name ? "bolder" : "normal",
-                  fontSize: project.name === work.name ? "2rem" : "1rem"
+                  fontSize: project.name === work.name ? "1.5rem" : "1rem"
                 }}
               >
                 {work.name}
