@@ -100,10 +100,10 @@ function Work() {
             <div class="upper-part-face">
               <img src={QUANTT} alt="" />
             </div>
-            <div class="upper-part-back">Creating a trading Algorithm from scratch with a strategy of our choosing and test it against real-world stock market.</div>
+            <div class="upper-part-back">Creating a machine learning trading Algorithm from scratch with a strategy of our choosing and test it against real-world stock market.</div>
           </div>
           <div class="lower-part">
-            <div class="lower-part-face">Algorithmic Trader</div>
+            <div class="lower-part-face">ML Algorithmic Trader</div>
             <div class="lower-part-back">September 2023 - Present</div>
           </div>
         </div>

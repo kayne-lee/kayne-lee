@@ -1,6 +1,6 @@
 import React from "react";
 import { useEffect, useState } from "react";
-import { AnimatePresence, motion, useAnimation } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 import C from "../assets/tech/C.png";
 import CSS from "../assets/tech/css.png";
 import HTML from "../assets/tech/html.png";
@@ -11,7 +11,7 @@ import PYTHON from "../assets/tech/python.png";
 import REACT from "../assets/tech/react.png";
 import FIGMA from "../assets/tech/Figma.png";
 import GIT from "../assets/tech/Git.png";
-import JUPYTER from "../assets/tech/Jupyter.png";
+import SQL from "../assets/tech/SQL.png";
 
 import TS from "../assets/tech/Typescript.png";
 
@@ -20,17 +20,17 @@ const images1 = [PYTHON, HTML]
 const images2 = [NEXT, CSS]
 const images3 = [REACT, GIT]
 const images4 = [JS, FIGMA]
-const images5 = [TS, JUPYTER]
+const images5 = [TS, SQL]
 
 function Tech() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isHovered, setIsHovered] = useState(false);
 
-  const fadeInVariants = {
-    hidden: { opacity: 0 },
-    visible: { opacity: 1 },
-    exit: { opacity: 0 },
-  };
+//   const fadeInVariants = {
+//     hidden: { opacity: 0 },
+//     visible: { opacity: 1 },
+//     exit: { opacity: 0 },
+//   };
 const [isVisible, setIsVisible] = useState(true);
 useEffect(() => {
     const timeoutId = setTimeout(() => {

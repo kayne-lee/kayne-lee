@@ -22,7 +22,7 @@ function about() {
         </div>
         <div className="about-tech pb-[100px] ">
             <div className="pb-[40px] pt-[40px]">
-              <p>Frameworks & Languages I have worked with</p>
+              <p>Technologies & Languages I have worked with</p>
             </div>
             <Tech />
 

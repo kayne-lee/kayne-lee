@@ -1,17 +1,18 @@
 import WORDLE from "../assets/WORDLE.png";
 import PACMAN from "../assets/PACMAN.png";
 import BITCOIN from "../assets/BITCOIN.png";
+import NBA from "../assets/NBA.png";
 
 export const PROJECTS = [
-  // {
-  //   name: "NBA Game Predictor",
-  //   technologies: ["Python", "Jupyter Notebook"],
-  //   highlights: 
-  //     "Created an algorithm to predict the outcome of future NBA gamers. This was done by web scraping NBA box scores through BeautifulSoup and parsed the box scores into Pandas data frames. This data was used to train a machine learning model to make predictions.",
-  //   image: PACMAN,
-  //   github: "https://github.com/kayne-lee/Pacman",
-  //   website: "https://youtu.be/hjE_QlTzTbQ",
-  // },
+  {
+    name: "NBA Game Predictor",
+    technologies: ["Python", "Jupyter Notebook"],
+    highlights: 
+      "Created an algorithm to predict the outcome of future NBA gamers. This was done by web scraping NBA box scores through BeautifulSoup and parsed the box scores into Pandas data frames. This data was used to train a machine learning model to make predictions.",
+    image: NBA,
+    github: "https://github.com/kayne-lee/NBA-Game-Predictor",
+    website: "",
+  },
     {
     name: "Bitcoin Predictor With ML",
     technologies: ["Python", "Jupyter Notebook"],
