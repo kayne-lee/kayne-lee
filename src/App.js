@@ -15,7 +15,9 @@ function App() {
   const scrollTo = (pageId) => {
     let page = document.getElementById(pageId);
 
-    scroll.scrollTo(page.offsetTop - (isIpad ? 50 : 70));
+    scroll.scrollTo(page.offsetTop - (isIpad ? 50 : 70), {
+      duration: 1,
+    });
     if (isIpad) setNavOn(false);
   };
   const [navOn, setNavOn] = useState(false);

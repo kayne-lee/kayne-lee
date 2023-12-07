@@ -5,6 +5,7 @@ import QUANTT from "../assets/work/QUANTT.png";
 import QWEB from "../assets/work/QWEB.png";
 import ICONS from "../assets/work/ICONS.png"
 import DEBACLE from "../assets/work/Debacle.png";
+import SMITH from "../assets/work/SMITH.png";
 
 function Work() {
   return (
@@ -68,6 +69,18 @@ function Work() {
             </div>
           </div>
         </div> */}
+          <div class="card1">
+          <div class="upper-part">
+            <div class="upper-part-face">
+                <img src={SMITH} alt="" />
+            </div>
+            <div class="upper-part-back">Facilitated student comprehension of coding concepts through tailored support and collaborated with instructors to develop engaging learning materials and assessments, contributing to the education of students.</div>
+          </div>
+          <div class="lower-part">
+            <div class="lower-part-face">Teaching Assitant (APSC 142) </div>
+            <div class="lower-part-back">January 2023 - Present</div>
+          </div>
+        </div>
         <div class="card1">
           <div class="upper-part">
             <div class="upper-part-face">
