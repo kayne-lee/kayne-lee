@@ -1,0 +1,82 @@
+.extra-content {
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.extra-buttonn {
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    @media only screen and (max-width: 600px) {
+        padding: 10px;
+      }
+}
+.extra-image {
+    width: 400px;
+    padding: 40px;
+    @media only screen and (min-width: 901px) and (max-width: 1100px) {
+        width: 250px;
+        padding: 32px;
+    }
+    @media only screen and (min-width: 601px) and (max-width: 900px) {
+        width: 180px;
+        padding: 30px;
+      }
+      @media only screen and (max-width: 600px) {
+        width: 160px;
+        padding: 30px;
+      }
+}
+.extra-high {
+    width: 600px;
+    @media only screen and (min-width: 901px) and (max-width: 1100px) {
+        width: 300px;
+    }
+    @media only screen and (min-width: 601px) and (max-width: 900px) {
+        width: 300px;
+      }
+      @media only screen and (max-width: 600px) {
+        width: 150px;
+      }
+}
+.extra-card {
+    display: flex;
+    flex-direction: row;
+    border-radius: 0.5rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.extra-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    font-size: 1.2em;
+    @media only screen and (min-width: 901px) and (max-width: 1100px) {
+        font-size: 0.9em;
+    }
+    @media only screen and (min-width: 601px) and (max-width: 900px) {
+        font-size: 0.9em;
+      }
+      @media only screen and (max-width: 600px) {
+        font-size: 8px;
+      }
+  }
+.extra-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px; // Adjust this value as needed
+    height: 50px; 
+    border-radius: 50%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    @media only screen and (max-width: 600px) {
+        width: 20px; // Adjust this value as needed
+        height: 20px; 
+      }
+}

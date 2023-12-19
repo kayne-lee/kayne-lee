@@ -3,11 +3,13 @@ import LandingPage from "./views/LandingPage";
 import Nav from "./views/Nav";
 import About from "./views/About";
 import Work from "./views/Work";
+import Extra from "./views/Extra";
 import Projects from "./views/Projects";
 import Contact from "./views/Contact";
 import { animateScroll as scroll } from "react-scroll";
 import { useEffect, useState } from "react";
 import { useMediaQuery } from "react-responsive";
+
 
 function App() {
   const isIpad = useMediaQuery({ query: "(max-width: 900px)" });
@@ -31,6 +33,7 @@ function App() {
       <LandingPage scrollTo={scrollTo} />
       <About />
       <Work />
+      <Extra />
       <Projects />
       <Contact />
     </div>

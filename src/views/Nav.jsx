@@ -76,6 +76,13 @@ function Nav({ scrollTo, navOn, toggleNav, isIpad }) {
                   </button>
                   <button
                     onClick={() => {
+                      scrollTo("extra");
+                    }}
+                  >
+                    Extra-Curriculars
+                  </button>
+                  <button
+                    onClick={() => {
                       scrollTo("projects");
                     }}
                   >
