@@ -21,7 +21,7 @@ function Work() {
             <div class="upper-part-back">Facilitated student comprehension of coding concepts through tailored support and collaborated with instructors to develop engaging learning materials and assessments, contributing to the education of students.</div>
           </div>
           <div class="lower-part">
-            <div class="lower-part-face">Teaching Assitant (APSC 142) </div>
+            <div class="lower-part-face">Teaching Assistant (APSC 142) </div>
             <div class="lower-part-back">January 2023 - Present</div>
           </div>
         </div>

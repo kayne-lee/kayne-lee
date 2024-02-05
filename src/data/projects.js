@@ -2,8 +2,19 @@ import WORDLE from "../assets/WORDLE.png";
 import PACMAN from "../assets/PACMAN.png";
 import BITCOIN from "../assets/BITCOIN.png";
 import NBA from "../assets/NBA.png";
+import SPREADSHEET from "../assets/work/Spreadsheet.png"
+import SMART from "../assets/Smart.png"
 
 export const PROJECTS = [
+  {
+    name: "SmartPlate",
+    technologies: ["Next.js", "OpenAI"],
+    highlights: 
+      "Created a Next.js application integrated with OpenAI API to create a budget friendly meal planner. Took data from the user and input into a GPT-3.5-Turbo model and output a list of meals along with ingredients and price of the meal. These ingredients could then be added to a grocery list where all the ingredients needed are stored along with total price, number of meals, and average cost per meal spent.",
+    image: SMART,
+    github: "https://github.com/kayne-lee/smartplate",
+    website: "https://youtu.be/L--EFs7gULE",
+  },
   {
     name: "NBA Game Predictor",
     technologies: ["Python", "Jupyter Notebook"],
@@ -12,6 +23,15 @@ export const PROJECTS = [
     image: NBA,
     github: "https://github.com/kayne-lee/NBA-Game-Predictor",
     website: "",
+  },
+  {
+    name: "Excel Spreadsheet",
+    technologies: ["C"],
+    highlights: 
+      "Developed an advanced spreadsheet application utilizing data structures like linked lists, queues, and hashmaps. This project emulates Excel's functionality, requiring problem-solving skills for complex formula calculations and memory copying between cells. Implemented linked lists for efficient data organization, addressing challenges in seamless data retrieval for formula calculations. Used queues to optimize task processing, demonstrating problem-solving skills in managing task prioritization for computational efficiency.",
+    image: SPREADSHEET,
+    github: "https://github.com/kayne-lee/spreadsheet",
+    website: "https://youtu.be/A_pZfOCyXlA",
   },
     {
     name: "Bitcoin Predictor With ML",
