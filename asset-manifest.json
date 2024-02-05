@@ -1,17 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.7743b5ba.css",
-    "main.js": "/static/js/main.e8457e4e.js",
+    "main.js": "/static/js/main.19615990.js",
     "static/media/Profile_Picture.jpg": "/static/media/Profile_Picture.b7b27ea4f8a1552c31a0.jpg",
     "static/media/QWEB.png": "/static/media/QWEB.091970752f70c72efffc.png",
+    "static/media/Spreadsheet.png": "/static/media/Spreadsheet.08c868659b00736481ba.png",
     "static/media/SMITH.png": "/static/media/SMITH.164c9923ec9c1e872c32.png",
+    "static/media/Smart.png": "/static/media/Smart.e4d60a5b49f5fe42c28d.png",
     "static/media/SQL.png": "/static/media/SQL.85fb38d6773862e917f4.png",
     "static/media/WORDLE.png": "/static/media/WORDLE.844fdfcff0f75b56394e.png",
+    "static/media/JAVA.png": "/static/media/JAVA.86407ffa56ebe1f70b6a.png",
     "static/media/C.png": "/static/media/C.56b146ae4d89bcd7714f.png",
     "static/media/python.png": "/static/media/python.1eaaad356f1e20a2540f.png",
     "static/media/react.png": "/static/media/react.f6b89d232c9bc9f828e5.png",
     "static/media/NBA.png": "/static/media/NBA.0fdf5fd9e91b0e4436a1.png",
-    "static/media/Figma.png": "/static/media/Figma.b08682c3a0753f59813f.png",
     "static/media/DENSO.png": "/static/media/DENSO.c45846932fccf1f1f232.png",
     "static/media/PACMAN.png": "/static/media/PACMAN.d928c1907bbd1753e0e7.png",
     "static/media/ICONS.png": "/static/media/ICONS.e71b4684aa3a9e5ae746.png",
@@ -29,10 +31,10 @@
     "static/media/node.png": "/static/media/node.a944ef19fe84ba7371f2.png",
     "index.html": "/index.html",
     "main.7743b5ba.css.map": "/static/css/main.7743b5ba.css.map",
-    "main.e8457e4e.js.map": "/static/js/main.e8457e4e.js.map"
+    "main.19615990.js.map": "/static/js/main.19615990.js.map"
   },
   "entrypoints": [
     "static/css/main.7743b5ba.css",
-    "static/js/main.e8457e4e.js"
+    "static/js/main.19615990.js"
   ]
 }
