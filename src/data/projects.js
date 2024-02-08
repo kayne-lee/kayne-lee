@@ -4,8 +4,18 @@ import BITCOIN from "../assets/BITCOIN.png";
 import NBA from "../assets/NBA.png";
 import SPREADSHEET from "../assets/work/Spreadsheet.png"
 import SMART from "../assets/Smart.png"
+import NUMERAI from "../assets/NumerAI.png"
 
 export const PROJECTS = [
+  {
+    name: "NumerAI Model",
+    technologies: ["Python", "API"],
+    highlights: 
+      "Developped a ML model to participate in the NumerAI tournament to trade crypto currencies. Currently have a 12% profit and ranked top 25 in the season. Used a LightGBM model to process the data given by NumerAI.",
+    image: NUMERAI,
+    github: "https://github.com/kayne-lee/numerAIModel",
+    website: "https://numer.ai/~kaynelee",
+  },
   {
     name: "SmartPlate",
     technologies: ["Next.js", "OpenAI"],
