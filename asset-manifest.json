@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7743b5ba.css",
-    "main.js": "/static/js/main.19615990.js",
+    "main.js": "/static/js/main.e5604c7a.js",
     "static/media/Profile_Picture.jpg": "/static/media/Profile_Picture.b7b27ea4f8a1552c31a0.jpg",
     "static/media/QWEB.png": "/static/media/QWEB.091970752f70c72efffc.png",
     "static/media/Spreadsheet.png": "/static/media/Spreadsheet.08c868659b00736481ba.png",
@@ -18,6 +18,7 @@
     "static/media/PACMAN.png": "/static/media/PACMAN.d928c1907bbd1753e0e7.png",
     "static/media/ICONS.png": "/static/media/ICONS.e71b4684aa3a9e5ae746.png",
     "static/media/css.png": "/static/media/css.e45638344f12f3855ca0.png",
+    "static/media/NumerAI.png": "/static/media/NumerAI.f50f47f8ecc363c7fbc7.png",
     "static/media/Typescript.png": "/static/media/Typescript.4e3f27e6784d69f4f587.png",
     "static/media/Debacle.png": "/static/media/Debacle.69aae62aed70d8a479b6.png",
     "static/media/QUANTT.png": "/static/media/QUANTT.51ff692125f2a7ce047a.png",
@@ -31,10 +32,10 @@
     "static/media/node.png": "/static/media/node.a944ef19fe84ba7371f2.png",
     "index.html": "/index.html",
     "main.7743b5ba.css.map": "/static/css/main.7743b5ba.css.map",
-    "main.19615990.js.map": "/static/js/main.19615990.js.map"
+    "main.e5604c7a.js.map": "/static/js/main.e5604c7a.js.map"
   },
   "entrypoints": [
     "static/css/main.7743b5ba.css",
-    "static/js/main.19615990.js"
+    "static/js/main.e5604c7a.js"
   ]
 }
