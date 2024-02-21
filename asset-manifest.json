@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b8211743.css",
-    "main.js": "/static/js/main.e5604c7a.js",
+    "main.css": "/static/css/main.c3341dfa.css",
+    "main.js": "/static/js/main.55a2ff75.js",
     "static/media/Profile_Picture.jpg": "/static/media/Profile_Picture.b7b27ea4f8a1552c31a0.jpg",
     "static/media/QWEB.png": "/static/media/QWEB.091970752f70c72efffc.png",
     "static/media/Spreadsheet.png": "/static/media/Spreadsheet.08c868659b00736481ba.png",
@@ -24,6 +24,7 @@
     "static/media/QUANTT.png": "/static/media/QUANTT.51ff692125f2a7ce047a.png",
     "static/media/wave.png": "/static/media/wave.ec33146df183e86a22e3.png",
     "static/media/js.png": "/static/media/js.ac9e504211b46cfb0118.png",
+    "static/media/AWS.png": "/static/media/AWS.de8c5d7d457d7aaa57c0.png",
     "static/media/BITCOIN.png": "/static/media/BITCOIN.3c09e23cb048ec6da3b8.png",
     "static/media/QMINDB.png": "/static/media/QMINDB.0016ee489964bfa4a822.png",
     "static/media/html.png": "/static/media/html.25a4641e6533a3b1ce90.png",
@@ -31,11 +32,11 @@
     "static/media/next.png": "/static/media/next.e01278f5cd5f34baadad.png",
     "static/media/node.png": "/static/media/node.a944ef19fe84ba7371f2.png",
     "index.html": "/index.html",
-    "main.b8211743.css.map": "/static/css/main.b8211743.css.map",
-    "main.e5604c7a.js.map": "/static/js/main.e5604c7a.js.map"
+    "main.c3341dfa.css.map": "/static/css/main.c3341dfa.css.map",
+    "main.55a2ff75.js.map": "/static/js/main.55a2ff75.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8211743.css",
-    "static/js/main.e5604c7a.js"
+    "static/css/main.c3341dfa.css",
+    "static/js/main.55a2ff75.js"
   ]
 }
