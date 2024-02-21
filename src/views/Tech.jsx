@@ -10,15 +10,15 @@ import NODE from "../assets/tech/node.png";
 import PYTHON from "../assets/tech/python.png";
 import REACT from "../assets/tech/react.png";
 import JAVA from "../assets/tech/JAVA.png"
-import GIT from "../assets/tech/Git.png";
 import SQL from "../assets/tech/SQL.png";
 import TS from "../assets/tech/Typescript.png";
+import AWS from "../assets/tech/AWS.png";
 
 const images = [C, NODE]
 const images1 = [PYTHON, HTML]
 const images2 = [NEXT, CSS]
-const images3 = [REACT, GIT]
-const images4 = [JS, JAVA]
+const images3 = [REACT, JS]
+const images4 = [AWS, JAVA]
 const images5 = [TS, SQL]
 
 function Tech() {
