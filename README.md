@@ -1,7 +1,8 @@
-<div id="header" align="center">
-  <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="200"/>
+<div align="center">
+  <img src="https://github.com/kayne-lee/kayne-lee/blob/main/public/github-header-image.png" width="1000"/>
 </div>
-![Header](./your-header-image-name.png)
+
+
 
 # 💫 About Me:
 🔭 I’m currently working on making a Spotify Social App<br>🌱 I’m currently learning about integrating other platforms<br>⚡ I love learning new things and playing all sorts of sports (mostly hockey and football)
