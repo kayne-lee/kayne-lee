@@ -64,8 +64,6 @@ I'm a Computer Engineering student at Queen's University with a passion for buil
 
 <div align="center">
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=kayne-lee&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=3B82F6)
-
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=kayne-lee&theme=tokyonight&hide_border=true&background=0D1117&ring=3B82F6&fire=3B82F6&currStreakLabel=3B82F6)
 
 </div>
