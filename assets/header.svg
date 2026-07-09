@@ -1,0 +1,63 @@
+<svg viewBox="0 0 880 312" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'JetBrains Mono','Fira Code','SF Mono',Menlo,Consolas,monospace">
+  <style>
+    .cmd { clip-path: inset(0 100% 0 0); }
+    .t1 { animation: type 0.7s steps(7) 0.4s forwards; }
+    .t2 { animation: type 1.1s steps(15) 2.0s forwards; }
+    .t3 { animation: type 1.2s steps(17) 4.1s forwards; }
+    @keyframes type { to { clip-path: inset(0 -2% 0 0); } }
+    .out { opacity: 0; animation: appear 0.25s ease-out forwards; }
+    .o1 { animation-delay: 1.35s; }
+    .o2 { animation-delay: 3.35s; }
+    .o3 { animation-delay: 5.55s; }
+    .o4 { animation-delay: 6.1s; }
+    @keyframes appear { to { opacity: 1; } }
+    .cursor { opacity: 0; animation: appear 0.1s 6.1s forwards, blink 1.1s steps(1) 6.2s infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) {
+      .cmd { clip-path: none; animation: none; }
+      .out { opacity: 1; animation: none; }
+      .cursor { opacity: 1; animation: none; }
+    }
+    text { font-size: 15px; }
+  </style>
+
+  <!-- window -->
+  <rect x="0.5" y="0.5" width="879" height="311" rx="10" fill="#000000" stroke="#1F2428"/>
+  <line x1="0.5" y1="40" x2="879.5" y2="40" stroke="#1F2428"/>
+
+  <!-- traffic lights -->
+  <circle cx="24" cy="20.5" r="6" fill="#FF5F56"/>
+  <circle cx="46" cy="20.5" r="6" fill="#FFBD2E"/>
+  <circle cx="68" cy="20.5" r="6" fill="#27C93F"/>
+  <text x="440" y="26" text-anchor="middle" fill="#5C6370" font-size="13">kayne@github: ~</text>
+
+  <!-- $ whoami -->
+  <g class="cmd t1">
+    <text x="28" y="78"><tspan fill="#98C379">$</tspan><tspan fill="#E6EDF3" dx="10">whoami</tspan></text>
+  </g>
+  <g class="out o1">
+    <text x="28" y="106"><tspan fill="#61AFEF" font-weight="700">Kayne Lee</tspan><tspan fill="#5C6370" dx="10">::</tspan><tspan fill="#ABB2BF" dx="10">Computer Engineering @ Queen's University '27</tspan></text>
+  </g>
+
+  <!-- role command -->
+  <g class="cmd t2">
+    <text x="28" y="146"><tspan fill="#98C379">$</tspan><tspan fill="#E6EDF3" dx="10">current --role</tspan></text>
+  </g>
+  <g class="out o2">
+    <text x="28" y="174"><tspan fill="#ABB2BF">Applied ML Engineer Intern @</tspan><tspan fill="#E5C07B" dx="8" font-weight="700">Microsoft</tspan><tspan fill="#5C6370" dx="10">// Redmond, WA</tspan></text>
+  </g>
+
+  <!-- $ cat interests.txt -->
+  <g class="cmd t3">
+    <text x="28" y="214"><tspan fill="#98C379">$</tspan><tspan fill="#E6EDF3" dx="10">cat interests.txt</tspan></text>
+  </g>
+  <g class="out o3">
+    <text x="28" y="242"><tspan fill="#5C6370">[</tspan><tspan fill="#98C379">"agentic AI"</tspan><tspan fill="#5C6370">,</tspan><tspan fill="#98C379" dx="6">"ML explainability"</tspan><tspan fill="#5C6370">,</tspan><tspan fill="#98C379" dx="6">"quant + markets"</tspan><tspan fill="#5C6370">]</tspan></text>
+  </g>
+
+  <!-- idle prompt -->
+  <g class="out o4">
+    <text x="28" y="284"><tspan fill="#98C379">$</tspan></text>
+  </g>
+  <rect class="cursor" x="48" y="271" width="9" height="17" fill="#61AFEF"/>
+</svg>

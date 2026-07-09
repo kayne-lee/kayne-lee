@@ -1,0 +1,59 @@
+<svg viewBox="0 0 880 330" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'JetBrains Mono','Fira Code','SF Mono',Menlo,Consolas,monospace">
+  <style>
+    text { font-size: 15px; }
+    .ln { font-size: 13px; }
+    .row { opacity: 0; animation: appear 0.3s ease-out forwards; }
+    .r1 { animation-delay: 0.15s; } .r2 { animation-delay: 0.30s; }
+    .r3 { animation-delay: 0.45s; } .r4 { animation-delay: 0.60s; }
+    .r5 { animation-delay: 0.75s; } .r6 { animation-delay: 0.90s; }
+    .r7 { animation-delay: 1.05s; } .r8 { animation-delay: 1.20s; }
+    @keyframes appear { to { opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) { .row { opacity: 1; animation: none; } }
+  </style>
+
+  <!-- window -->
+  <rect x="0.5" y="0.5" width="879" height="329" rx="10" fill="#000000" stroke="#1F2428"/>
+  <line x1="0.5" y1="44" x2="879.5" y2="44" stroke="#1F2428"/>
+
+  <!-- editor tab -->
+  <rect x="16" y="10" width="180" height="34" rx="6" fill="#0D1117" stroke="#1F2428"/>
+  <circle cx="36" cy="27" r="4" fill="#61AFEF"/>
+  <text x="50" y="32" fill="#ABB2BF" font-size="13">stack.config.ts</text>
+
+  <!-- gutter -->
+  <line x1="52" y1="44" x2="52" y2="329.5" stroke="#1F2428"/>
+
+  <!-- line numbers -->
+  <g fill="#3A3F4B" class="ln" text-anchor="end">
+    <text x="40" y="80" class="row r1">1</text>
+    <text x="40" y="108" class="row r2">2</text>
+    <text x="40" y="136" class="row r3">3</text>
+    <text x="40" y="164" class="row r4">4</text>
+    <text x="40" y="192" class="row r5">5</text>
+    <text x="40" y="220" class="row r6">6</text>
+    <text x="40" y="248" class="row r7">7</text>
+    <text x="40" y="276" class="row r8">8</text>
+  </g>
+
+  <!-- code -->
+  <text x="72" y="80" class="row r1" fill="#5C6370" font-style="italic">// what I build with</text>
+
+  <text x="72" y="108" class="row r2"><tspan fill="#C678DD">export</tspan><tspan fill="#C678DD" dx="8">const</tspan><tspan fill="#61AFEF" dx="8">stack</tspan><tspan fill="#ABB2BF" dx="6">=</tspan><tspan fill="#ABB2BF" dx="6">{</tspan></text>
+
+  <text x="100" y="136" class="row r3"><tspan fill="#E06C75">languages</tspan><tspan fill="#ABB2BF">:</tspan><tspan fill="#ABB2BF" dx="6">[</tspan><tspan fill="#98C379">"Python"</tspan><tspan fill="#ABB2BF">,</tspan><tspan fill="#98C379" dx="5">"C++"</tspan><tspan fill="#ABB2BF">,</tspan><tspan fill="#98C379" dx="5">"TypeScript"</tspan><tspan fill="#ABB2BF">,</tspan><tspan fill="#98C379" dx="5">"C#"</tspan><tspan fill="#ABB2BF">,</tspan><tspan fill="#98C379" dx="5">"Java"</tspan><tspan fill="#ABB2BF">,</tspan><tspan fill="#98C379" dx="5">"SQL"</tspan><tspan fill="#ABB2BF">],</tspan></text>
+
+  <text x="100" y="164" class="row r4"><tspan fill="#E06C75">ml</tspan><tspan fill="#ABB2BF">:</tspan><tspan fill="#ABB2BF" dx="6">[</tspan><tspan fill="#98C379">"PyTorch"</tspan><tspan fill="#ABB2BF">,</tspan><tspan fill="#98C379" dx="5">"LightGBM"</tspan><tspan fill="#ABB2BF">,</tspan><tspan fill="#98C379" dx="5">"SHAP"</tspan><tspan fill="#ABB2BF">,</tspan><tspan fill="#98C379" dx="5">"LangGraph"</tspan><tspan fill="#ABB2BF">,</tspan><tspan fill="#98C379" dx="5">"LangChain"</tspan><tspan fill="#ABB2BF">],</tspan></text>
+
+  <text x="100" y="192" class="row r5"><tspan fill="#E06C75">backend</tspan><tspan fill="#ABB2BF">:</tspan><tspan fill="#ABB2BF" dx="6">[</tspan><tspan fill="#98C379">"FastAPI"</tspan><tspan fill="#ABB2BF">,</tspan><tspan fill="#98C379" dx="5">"Django"</tspan><tspan fill="#ABB2BF">,</tspan><tspan fill="#98C379" dx="5">"Node.js"</tspan><tspan fill="#ABB2BF">,</tspan><tspan fill="#98C379" dx="5">"PostgreSQL"</tspan><tspan fill="#ABB2BF">,</tspan><tspan fill="#98C379" dx="5">"MongoDB"</tspan><tspan fill="#ABB2BF">],</tspan></text>
+
+  <text x="100" y="220" class="row r6"><tspan fill="#E06C75">infra</tspan><tspan fill="#ABB2BF">:</tspan><tspan fill="#ABB2BF" dx="6">[</tspan><tspan fill="#98C379">"AWS"</tspan><tspan fill="#ABB2BF">,</tspan><tspan fill="#98C379" dx="5">"Azure"</tspan><tspan fill="#ABB2BF">,</tspan><tspan fill="#98C379" dx="5">"Docker"</tspan><tspan fill="#ABB2BF">,</tspan><tspan fill="#98C379" dx="5">"Kubernetes"</tspan><tspan fill="#ABB2BF">,</tspan><tspan fill="#98C379" dx="5">"CI/CD"</tspan><tspan fill="#ABB2BF">],</tspan></text>
+
+  <text x="100" y="248" class="row r7"><tspan fill="#E06C75">focus</tspan><tspan fill="#ABB2BF">:</tspan><tspan fill="#98C379" dx="6">"agentic systems + ML explainability"</tspan><tspan fill="#ABB2BF">,</tspan></text>
+
+  <text x="72" y="276" class="row r8"><tspan fill="#ABB2BF">}</tspan><tspan fill="#C678DD" dx="6">as</tspan><tspan fill="#C678DD" dx="8">const</tspan><tspan fill="#ABB2BF">;</tspan></text>
+
+  <!-- status bar -->
+  <line x1="0.5" y1="300" x2="879.5" y2="300" stroke="#1F2428"/>
+  <text x="24" y="319" fill="#5C6370" font-size="12">TypeScript</text>
+  <text x="856" y="319" fill="#5C6370" font-size="12" text-anchor="end">UTF-8  |  LF  |  Ln 8, Col 11</text>
+</svg>
