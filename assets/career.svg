@@ -1,0 +1,76 @@
+<svg viewBox="0 0 880 322" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'JetBrains Mono','Fira Code','SF Mono',Menlo,Consolas,monospace">
+  <style>
+    text { font-size: 14.5px; }
+    .cmd { clip-path: inset(0 100% 0 0); animation: type 1.0s steps(24) 0.3s forwards; }
+    @keyframes type { to { clip-path: inset(0 -2% 0 0); } }
+    .row { opacity: 0; animation: appear 0.25s ease-out forwards; }
+    .r1 { animation-delay: 1.45s; } .r2 { animation-delay: 1.65s; }
+    .r3 { animation-delay: 1.85s; } .r4 { animation-delay: 2.05s; }
+    .r5 { animation-delay: 2.25s; } .r6 { animation-delay: 2.45s; }
+    .r7 { animation-delay: 2.75s; }
+    @keyframes appear { to { opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) {
+      .cmd { clip-path: none; animation: none; }
+      .row { opacity: 1; animation: none; }
+    }
+  </style>
+
+  <!-- window -->
+  <rect x="0.5" y="0.5" width="879" height="321" rx="10" fill="#000000" stroke="#1F2428"/>
+  <line x1="0.5" y1="40" x2="879.5" y2="40" stroke="#1F2428"/>
+  <circle cx="24" cy="20.5" r="6" fill="#FF5F56"/>
+  <circle cx="46" cy="20.5" r="6" fill="#FFBD2E"/>
+  <circle cx="68" cy="20.5" r="6" fill="#27C93F"/>
+  <text x="440" y="26" text-anchor="middle" fill="#5C6370" font-size="13">kayne@github: ~/career</text>
+
+  <!-- command -->
+  <g class="cmd">
+    <text x="28" y="76"><tspan fill="#98C379">$</tspan><tspan fill="#E6EDF3" dx="10">git log --oneline career</tspan></text>
+  </g>
+
+  <!-- graph spine -->
+  <g class="row r7">
+    <line x1="35" y1="102" x2="35" y2="266" stroke="#3A3F4B" stroke-dasharray="2 4"/>
+  </g>
+
+  <!-- log rows -->
+  <g class="row r1">
+    <circle cx="35" cy="106" r="4" fill="#98C379"/>
+    <text x="54" y="111"><tspan fill="#D19A66">a3f9c21</tspan><tspan fill="#56B6C2" dx="8">(</tspan><tspan fill="#61AFEF">HEAD -&gt; now</tspan><tspan fill="#56B6C2">)</tspan><tspan fill="#E6EDF3" dx="8" font-weight="700">Microsoft</tspan><tspan fill="#5C6370" dx="6">·</tspan><tspan fill="#ABB2BF" dx="6">Applied ML Engineer Intern</tspan></text>
+    <text x="856" y="111" text-anchor="end" fill="#5C6370">2026</text>
+  </g>
+
+  <g class="row r2">
+    <circle cx="35" cy="138" r="4" fill="#3A3F4B"/>
+    <text x="54" y="143"><tspan fill="#D19A66">7d2e8b4</tspan><tspan fill="#E6EDF3" dx="8" font-weight="700">IBM</tspan><tspan fill="#5C6370" dx="6">·</tspan><tspan fill="#ABB2BF" dx="6">SWE Intern, agentic AI platform for 5,000+ users</tspan></text>
+    <text x="856" y="143" text-anchor="end" fill="#5C6370">2025</text>
+  </g>
+
+  <g class="row r3">
+    <circle cx="35" cy="170" r="4" fill="#3A3F4B"/>
+    <text x="54" y="175"><tspan fill="#D19A66">c91f0a5</tspan><tspan fill="#E6EDF3" dx="8" font-weight="700">AdvisorScore</tspan><tspan fill="#5C6370" dx="6">·</tspan><tspan fill="#ABB2BF" dx="6">Founding Engineer, semantic retrieval + scoring</tspan></text>
+    <text x="856" y="175" text-anchor="end" fill="#5C6370">2025</text>
+  </g>
+
+  <g class="row r4">
+    <circle cx="35" cy="202" r="4" fill="#3A3F4B"/>
+    <text x="54" y="207"><tspan fill="#D19A66">5b8d3e7</tspan><tspan fill="#E6EDF3" dx="8" font-weight="700">SafetyPower</tspan><tspan fill="#5C6370" dx="6">·</tspan><tspan fill="#ABB2BF" dx="6">SWE Intern, Django + RAG project workflows</tspan></text>
+    <text x="856" y="207" text-anchor="end" fill="#5C6370">2025</text>
+  </g>
+
+  <g class="row r5">
+    <circle cx="35" cy="234" r="4" fill="#3A3F4B"/>
+    <text x="54" y="239"><tspan fill="#D19A66">2e4a9c1</tspan><tspan fill="#E6EDF3" dx="8" font-weight="700">STraffic America</tspan><tspan fill="#5C6370" dx="6">·</tspan><tspan fill="#ABB2BF" dx="6">SWE Intern, YOLOv10 vision on 300K+ images</tspan></text>
+    <text x="856" y="239" text-anchor="end" fill="#5C6370">2024</text>
+  </g>
+
+  <g class="row r6">
+    <circle cx="35" cy="266" r="4" fill="#3A3F4B"/>
+    <text x="54" y="271"><tspan fill="#D19A66">0f4e8d2</tspan><tspan fill="#56B6C2" dx="8">(</tspan><tspan fill="#98C379">tag: origin</tspan><tspan fill="#56B6C2">)</tspan><tspan fill="#E6EDF3" dx="8" font-weight="700">Queen's University</tspan><tspan fill="#5C6370" dx="6">·</tspan><tspan fill="#ABB2BF" dx="6">Computer Engineering, BASc</tspan></text>
+    <text x="856" y="271" text-anchor="end" fill="#5C6370">2022</text>
+  </g>
+
+  <g class="row r7">
+    <text x="28" y="304"><tspan fill="#98C379">$</tspan><tspan fill="#5C6370" dx="10">next commit loading...</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,216 @@
+<svg viewBox="0 0 880 330" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" font-family="'JetBrains Mono','Fira Code','SF Mono',Menlo,Consolas,monospace">
+  <style>
+    .boot { opacity: 0; animation: boot 1.4s steps(1) 0.3s forwards; }
+    @keyframes boot { 0%{opacity:0} 8%{opacity:1} 14%{opacity:.15} 22%{opacity:1} 30%{opacity:.3} 40%{opacity:1} 100%{opacity:1} }
+    .fade { opacity: 0; animation: fadeIn .5s ease-out forwards; }
+    .f1 { animation-delay: 1.2s } .f2 { animation-delay: 1.5s } .f3 { animation-delay: 1.8s } .f4 { animation-delay: 2.1s }
+    @keyframes fadeIn { to { opacity: 1 } }
+    .blink { animation: blink 1.2s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: .15 } }
+    .eyes { transform-box: fill-box; transform-origin: center; animation: blinkE 4.2s infinite; }
+    @keyframes blinkE { 0%,92%,100% { transform: scaleY(1) } 95% { transform: scaleY(.12) } }
+    .cyc { opacity: 0; animation: cyc 12s infinite; }
+    .c2 { animation-delay: 4s } .c3 { animation-delay: 8s }
+    @keyframes cyc { 0%{opacity:0} 3%{opacity:1} 30%{opacity:1} 34%{opacity:0} 100%{opacity:0} }
+    .gauge { transform-box: fill-box; transform-origin: left center; }
+    .g1 { animation: g1 3.2s ease-in-out infinite alternate; }
+    .g2 { animation: g2 2.5s ease-in-out .4s infinite alternate; }
+    .g3 { animation: g3 4.1s ease-in-out .9s infinite alternate; }
+    @keyframes g1 { from{transform:scaleX(.72)} to{transform:scaleX(.97)} }
+    @keyframes g2 { from{transform:scaleX(.55)} to{transform:scaleX(.9)} }
+    @keyframes g3 { from{transform:scaleX(.8)} to{transform:scaleX(1)} }
+    .sweep { animation: sweep 7s linear 1.2s infinite; }
+    @keyframes sweep { from{transform:translateX(-160px)} to{transform:translateX(1040px)} }
+    .stripes { animation: crawl 1.2s linear infinite; }
+    @keyframes crawl { to { transform: translateX(14px) } }
+    @media (prefers-reduced-motion: reduce) {
+      .boot,.fade,.blink,.eyes,.gauge,.sweep,.stripes { animation: none; opacity: 1; }
+      .cyc { animation: none; opacity: 0; } .c1 { opacity: 1; }
+      #holoScan { display: none; }
+    }
+  </style>
+  <defs>
+    <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4D7CFF" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#4D7CFF" stop-opacity=".07"/>
+      <stop offset="1" stop-color="#4D7CFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="titleGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#F2F6FF"/>
+      <stop offset="1" stop-color="#9DB4E8"/>
+    </linearGradient>
+    <linearGradient id="holo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#34F5B5" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#34F5B5" stop-opacity=".14"/>
+      <stop offset="1" stop-color="#34F5B5" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="pilotGlow">
+      <stop offset="0" stop-color="#34F5B5" stop-opacity=".09"/>
+      <stop offset=".7" stop-color="#34F5B5" stop-opacity=".03"/>
+      <stop offset="1" stop-color="#34F5B5" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="hazardClip"><rect x="36" y="288" width="132" height="9"/></clipPath>
+    <clipPath id="frameClip"><path d="M26 10 H836 L854 28 V302 L836 320 H44 L26 302 Z"/></clipPath>
+  </defs>
+
+  <!-- canvas -->
+  <rect width="880" height="330" fill="#05070C"/>
+  <!-- faint scanlines -->
+  <g stroke="#FFFFFF" stroke-opacity=".025">
+    <line x1="0" y1="55" x2="880" y2="55"/><line x1="0" y1="110" x2="880" y2="110"/>
+    <line x1="0" y1="165" x2="880" y2="165"/><line x1="0" y1="220" x2="880" y2="220"/>
+    <line x1="0" y1="275" x2="880" y2="275"/>
+  </g>
+
+  <!-- chamfered outer frame -->
+  <path d="M26 10 H836 L854 28 V302 L836 320 H44 L26 302 Z" stroke="#22304F" stroke-width="1.5"/>
+  <!-- yellow corner brackets -->
+  <g stroke="#FFC400" stroke-width="3">
+    <path d="M26 44 V22 L38 10 H60"/>
+    <path d="M820 10 H836 L854 28 V50"/>
+    <path d="M854 286 V302 L836 320 H814"/>
+    <path d="M60 320 H44 L26 302 V280"/>
+  </g>
+  <!-- red decal slashes -->
+  <g fill="#E8443A">
+    <path d="M74 10 h26 l-10 12 h-26 Z"/>
+    <path d="M108 10 h14 l-10 12 h-14 Z"/>
+  </g>
+
+  <!-- top status bar -->
+  <g class="fade f1">
+    <circle cx="152" cy="16" r="3.5" fill="#27C93F" class="blink"/>
+    <text x="163" y="20.5" fill="#27C93F" font-size="11" letter-spacing="1">SYS.ONLINE</text>
+    <text x="470" y="20.5" fill="#3A4A6B" font-size="11" text-anchor="middle" letter-spacing="2">E.F.S.F. // MS CONSOLE v27</text>
+    <circle cx="756" cy="16" r="3.5" fill="#E8443A" class="blink"/>
+    <text x="766" y="20.5" fill="#E8443A" font-size="11" letter-spacing="1">REC</text>
+  </g>
+
+  <!-- pilot block -->
+  <g class="fade f1">
+    <rect x="36" y="52" width="8" height="8" fill="#FFC400"/>
+    <text x="52" y="60" fill="#FFC400" font-size="11" letter-spacing="3">PILOT REGISTRY // 027-KL</text>
+  </g>
+  <g class="boot">
+    <text x="34" y="120" fill="url(#titleGrad)" font-size="57" font-weight="800" letter-spacing="7">KAYNE LEE</text>
+  </g>
+  <g class="fade f2">
+    <text x="36" y="148" fill="#8FA3C8" font-size="13.5">
+      <tspan fill="#4D7CFF" font-weight="700">UNIT</tspan>
+      <tspan dx="8">KL-05 // APPLIED ML ENGINEER INTERN @</tspan>
+      <tspan dx="6" fill="#E6EDF3" font-weight="700">MICROSOFT</tspan>
+    </text>
+    <text x="36" y="172" fill="#8FA3C8" font-size="13.5">
+      <tspan fill="#4D7CFF" font-weight="700">ACADEMY</tspan>
+      <tspan dx="8">QUEEN'S UNIVERSITY — COMPUTER ENGINEERING '27</tspan>
+    </text>
+  </g>
+
+  <!-- gauges -->
+  <g class="fade f3" font-size="10">
+    <text x="36" y="207" fill="#3A4A6B" letter-spacing="1">AGENTIC.AI</text>
+    <rect x="130" y="199" width="150" height="8" fill="#0E1524" stroke="#22304F" stroke-width="1"/>
+    <rect x="131" y="200" width="148" height="6" fill="#4D7CFF" class="gauge g1"/>
+    <text x="36" y="229" fill="#3A4A6B" letter-spacing="1">ML.INFRA</text>
+    <rect x="130" y="221" width="150" height="8" fill="#0E1524" stroke="#22304F" stroke-width="1"/>
+    <rect x="131" y="222" width="148" height="6" fill="#27C93F" class="gauge g2"/>
+    <text x="36" y="251" fill="#3A4A6B" letter-spacing="1">QUANT.SYS</text>
+    <rect x="130" y="243" width="150" height="8" fill="#0E1524" stroke="#22304F" stroke-width="1"/>
+    <rect x="131" y="244" width="148" height="6" fill="#FFC400" class="gauge g3"/>
+  </g>
+
+  <!-- telemetry cycler -->
+  <g font-size="12.5">
+    <text x="36" y="281" fill="#FFC400">▸</text>
+    <text x="52" y="281" fill="#8FA3C8" class="cyc c1">MISSION: agentic AI systems + the ML infrastructure behind them</text>
+    <text x="52" y="281" fill="#8FA3C8" class="cyc c2">ARMAMENT: PyTorch / LightGBM / SHAP / LangGraph / FastAPI / K8s</text>
+    <text x="52" y="281" fill="#8FA3C8" class="cyc c3">SORTIE LOG: Microsoft · IBM · AdvisorScore · Numerai Top 20 NA</text>
+  </g>
+
+  <!-- hazard stripe -->
+  <g clip-path="url(#hazardClip)">
+    <rect x="36" y="288" width="132" height="9" fill="#151005"/>
+    <g class="stripes" fill="#FFC400">
+      <path d="M22 288 l9 0 -9 9 -9 0 Z"/><path d="M36 288 l9 0 -9 9 -9 0 Z"/>
+      <path d="M50 288 l9 0 -9 9 -9 0 Z"/><path d="M64 288 l9 0 -9 9 -9 0 Z"/>
+      <path d="M78 288 l9 0 -9 9 -9 0 Z"/><path d="M92 288 l9 0 -9 9 -9 0 Z"/>
+      <path d="M106 288 l9 0 -9 9 -9 0 Z"/><path d="M120 288 l9 0 -9 9 -9 0 Z"/>
+      <path d="M134 288 l9 0 -9 9 -9 0 Z"/><path d="M148 288 l9 0 -9 9 -9 0 Z"/>
+      <path d="M162 288 l9 0 -9 9 -9 0 Z"/><path d="M176 288 l9 0 -9 9 -9 0 Z"/>
+    </g>
+  </g>
+  <text x="178" y="296" fill="#3A4A6B" font-size="10" letter-spacing="1" class="fade f4">CAUTION: SHIPS TO PROD</text>
+
+  <!-- unit visual: wing zero hologram -->
+  <g class="fade f3">
+    <!-- targeting brackets -->
+    <g stroke="#FFC400" stroke-width="1.5" opacity=".7">
+      <path d="M600 56 v-12 h12"/><path d="M832 44 h12 v12"/>
+      <path d="M844 262 v12 h-12"/><path d="M612 274 h-12 v-12"/>
+    </g>
+    <ellipse cx="722" cy="150" rx="130" ry="115" fill="url(#pilotGlow)"/>
+    <g transform="translate(722,38)">
+      <g id="bob">
+        <animateTransform attributeName="transform" type="translate" values="0 0; 0 4; 0 0" dur="4.5s" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1" repeatCount="indefinite"/>
+        <!-- left arm (at side) -->
+        <line x1="-31" y1="82" x2="-38" y2="124" stroke="#232D45" stroke-width="11" stroke-linecap="round"/>
+        <circle cx="-39" cy="131" r="5" fill="#F0C8A0"/>
+        <!-- right arm (waving) -->
+        <line x1="31" y1="82" x2="44" y2="98" stroke="#232D45" stroke-width="11" stroke-linecap="round"/>
+        <g>
+          <animateTransform attributeName="transform" type="rotate" values="0 44 98; 22 44 98; 4 44 98; 22 44 98; 0 44 98; 0 44 98" keyTimes="0;.12;.24;.36;.48;1" dur="3.8s" repeatCount="indefinite"/>
+          <line x1="44" y1="98" x2="56" y2="74" stroke="#232D45" stroke-width="10" stroke-linecap="round"/>
+          <circle cx="59" cy="68" r="5.5" fill="#F0C8A0"/>
+        </g>
+        <!-- legs -->
+        <polygon points="-27,128 -4,128 -8,198 -26,196" fill="#3E4450"/>
+        <polygon points="4,128 27,128 26,196 8,198" fill="#3E4450"/>
+        <!-- sneakers -->
+        <path d="M-26 195 L-7 197 L-5 205 Q-5 209 -11 209 L-29 207 Q-32 201 -26 195 Z" fill="#EDEFF4"/>
+        <path d="M-25 202.5 L-10 204" stroke="#E8443A" stroke-width="1.6"/>
+        <path d="M26 195 L7 197 L5 205 Q5 209 11 209 L29 207 Q32 201 26 195 Z" fill="#EDEFF4"/>
+        <path d="M25 202.5 L10 204" stroke="#E8443A" stroke-width="1.6"/>
+        <!-- torso: polo -->
+        <path d="M-34 80 Q-31 67 -13 64 L13 64 Q31 67 34 80 L30 130 L-30 130 Z" fill="#232D45" stroke="#3A4A6B" stroke-width="1"/>
+        <!-- neck + chain + collar -->
+        <rect x="-6" y="54" width="12" height="12" fill="#F0C8A0"/>
+        <path d="M-11 63 L0 76 L11 63 L6 61 L0 69 L-6 61 Z" fill="#2C3854" stroke="#3A4A6B" stroke-width=".8"/>
+        <path d="M-8 67 Q0 75 8 67" stroke="#D8B24A" stroke-width="1.3" fill="none"/>
+        <!-- head -->
+        <circle cx="-21" cy="41" r="4" fill="#F0C8A0"/>
+        <circle cx="21" cy="41" r="4" fill="#F0C8A0"/>
+        <rect x="-20" y="18" width="40" height="40" rx="15" fill="#F0C8A0"/>
+        <!-- hair -->
+        <path d="M-23 42 Q-27 6 0 4 Q27 6 23 42 Q22 28 16 24 Q17 30 10 26 Q3 22 -3 27 Q-9 31 -14 26 Q-17 23 -18 30 Q-21 32 -23 42 Z" fill="#17181D"/>
+        <!-- brows -->
+        <path d="M-14 33 Q-9 31 -5 33" stroke="#17181D" stroke-width="1.6" fill="none"/>
+        <path d="M5 33 Q9 31 14 33" stroke="#17181D" stroke-width="1.6" fill="none"/>
+        <!-- eyes (blink) -->
+        <g class="eyes">
+          <circle cx="-9" cy="40.5" r="1.8" fill="#17181D"/>
+          <circle cx="9" cy="40.5" r="1.8" fill="#17181D"/>
+        </g>
+        <!-- glasses -->
+        <g stroke="#C9A86A" stroke-width="1.3" fill="none">
+          <circle cx="-9" cy="40.5" r="7"/>
+          <circle cx="9" cy="40.5" r="7"/>
+          <path d="M-2 40.5 Q0 39 2 40.5"/>
+          <path d="M-16 39.5 L-20 39"/>
+          <path d="M16 39.5 L20 39"/>
+        </g>
+        <!-- smile -->
+        <path d="M-5.5 50 Q0 54 5.5 50" stroke="#B5773F" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+      </g>
+    </g>
+    <!-- hologram scan bar -->
+    <rect id="holoScan" x="600" width="244" height="16" fill="url(#holo)" opacity=".8">
+      <animate attributeName="y" values="46;248;46" dur="7s" repeatCount="indefinite"/>
+    </rect>
+    <text x="722" y="288" fill="#3A4A6B" font-size="10" text-anchor="middle" letter-spacing="2">PILOT VISUAL // CONFIRMED</text>
+  </g>
+
+  <!-- scan sweep overlay -->
+  <g clip-path="url(#frameClip)">
+    <rect class="sweep" x="0" y="10" width="150" height="310" fill="url(#scan)"/>
+  </g>
+</svg>
