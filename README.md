@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/header.svg" width="100%" alt="Kayne Lee, Computer Engineering @ Queen's University, Applied ML Engineer Intern @ Microsoft" />
+  <img src="./assets/header.svg" width="100%" alt="Gundam-style cockpit console: pilot Kayne Lee, Applied ML Engineer Intern @ Microsoft, Computer Engineering @ Queen's University '27, with an animated waving avatar of Kayne in the pilot visual" />
 </div>
 
 I build agentic AI systems and the ML infrastructure behind them. Right now that means Shapley value explainability and eval harnesses on payment risk models at Microsoft. Before that: an enterprise agentic platform at IBM, a semantic retrieval engine as a founding engineer at AdvisorScore, and a Numerai model that ranked Top 20 in North America.
