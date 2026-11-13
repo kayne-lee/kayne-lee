@@ -1,9 +1,13 @@
 # 👋 Hello, I'm Kayne Lee
 
 <div align="center">
+<<<<<<< Updated upstream
   
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=3B82F6&center=true&vCenter=true&random=false&width=600&lines=Computer+Engineering+%40+Queen's;Full-Stack+Developer;AI+%26+ML+Enthusiast;Building+the+Future+🚀)](https://git.io/typing-svg)
 
+=======
+  <img src="./assets/header.svg" width="100%" alt="Kayne Lee, Software Engineer. Computer Engineering at Queen's University '27. Ex: SWE at Microsoft and IBM. Building agentic systems and the software that runs them." />
+>>>>>>> Stashed changes
 </div>
 
 ## 🚀 About Me
@@ -63,9 +67,13 @@ I'm a Computer Engineering student at Queen's University with a passion for buil
 ## 📊 GitHub Stats
 
 <div align="center">
+<<<<<<< Updated upstream
 
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=kayne-lee&theme=tokyonight&hide_border=true&background=0D1117&ring=3B82F6&fire=3B82F6&currStreakLabel=3B82F6)
 
+=======
+  <img src="./assets/whoami.svg" width="100%" alt="I build agentic systems and the software that runs them. Most recently at Microsoft, I built eval harnesses and explainability tooling for payment risk models. Before that: an enterprise agentic platform for 5,000+ users at IBM, and a semantic retrieval engine as a founding engineer at AdvisorScore." />
+>>>>>>> Stashed changes
 </div>
 
 ---
@@ -74,17 +82,22 @@ I'm a Computer Engineering student at Queen's University with a passion for buil
 ## 📫 Connect With Me
 
 <div align="center">
+<<<<<<< Updated upstream
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/kaynelee)
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://kayneleev2.vercel.app/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kayne.lee2@outlook.com)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kayne-lee)
 
+=======
+  <img src="./assets/stack.svg" width="100%" alt="Languages: Python, TypeScript/JavaScript, Rust, C++, C#, Java, SQL. Frontend: React, Next.js, Tailwind CSS, Redux, Vite. Backend: FastAPI, Django, Node.js. Databases: PostgreSQL, MongoDB, Supabase. Agents: LangGraph, LangChain, PyTorch. Infra: AWS, Azure, Docker, Kubernetes, CI/CD." />
+>>>>>>> Stashed changes
 </div>
 
 ---
 
 <div align="center">
+<<<<<<< Updated upstream
 
 
 ### 🎵 When I'm Not Coding...
@@ -96,4 +109,7 @@ I'm a Computer Engineering student at Queen's University with a passion for buil
 
 **Thanks for stopping by! Let's build something amazing together 🚀**
 
+=======
+  <img src="./assets/career.svg" width="100%" alt="Career: Microsoft, SWE Intern (2026). IBM, SWE Intern (2025). AdvisorScore, Founding Engineer (2025). SafetyPower, SWE Intern (2025). STraffic America, SWE Intern (2024). Queen's University, Computer Engineering (2022)." />
+>>>>>>> Stashed changes
 </div>

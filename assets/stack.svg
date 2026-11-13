@@ -1,0 +1,113 @@
+<svg viewBox="0 0 880 354" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif">
+  <style>
+    :root { --bg1:#FFFFFF; --bg2:#F1F1F1; --line:#E4E4E4; --ink:#0A0A0A; --ink2:#3A3A3A; --mute:#8A8A8A; --mono:#6A6A6A; --shadow:#000000; --edge:#FFFFFF; }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg1:#131316; --bg2:#08080A; --line:#2B2B30; --ink:#FFFFFF; --ink2:#D0D0D0; --mute:#8E8E93; --mono:#A0A0A6; --shadow:#5A5A5A; --edge:#F2F2F2; }
+    }
+    .ink { fill: var(--ink) } .ink2 { fill: var(--ink2) } .mute { fill: var(--mute) }
+    .b { font-weight: 700; fill: var(--ink) }
+    .mono { font-family: 'SF Mono','JetBrains Mono',Menlo,Consolas,monospace; }
+    .cap { font-size: 10.5px; letter-spacing: 3px; fill: var(--mute) }
+    .hair { stroke: var(--line) } .edge { stroke: var(--edge); stroke-width: 1.3; stroke-linejoin: round }
+    .up { opacity: 0; transform: translateY(8px); animation: up .9s cubic-bezier(.2,.7,.2,1) forwards; }
+    @keyframes up { to { opacity: 1; transform: none } }
+    .rule { stroke: var(--ink); stroke-width: 2; stroke-dasharray: 44; stroke-dashoffset: 44; animation: draw .8s ease-out .6s forwards; }
+    @keyframes draw { to { stroke-dashoffset: 0 } }
+    
+    @media (prefers-reduced-motion: reduce) {
+      .up,.rule,.spine { animation: none; opacity: 1; transform: none; stroke-dashoffset: 0; }
+    }
+  </style>
+  <defs>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" style="stop-color:var(--bg1)"/><stop offset="1" style="stop-color:var(--bg2)"/>
+    </linearGradient>
+    <radialGradient id="shadow">
+      <stop offset="0" style="stop-color:var(--shadow)" stop-opacity=".28"/>
+      <stop offset=".6" style="stop-color:var(--shadow)" stop-opacity=".07"/>
+      <stop offset="1" style="stop-color:var(--shadow)" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x=".5" y=".5" width="879" height="353" rx="22" fill="url(#card)" class="hair"/>
+  <g class="up" style="animation-delay:.15s">
+    <rect x="56" y="59" width="7" height="7" class="ink"/>
+    <text x="74" y="66.5" class="mono cap">STACK</text>
+  </g>
+  <g class="up" style="animation-delay:0.30s">
+    <text x="56" y="112" class="mono mute" font-size="10.5">01</text>
+    <text x="86" y="112" class="mono cap">LANGUAGES</text>
+    <text x="196" y="112.5" class="ink2" font-size="15.5">Python · TypeScript/JavaScript · Rust · C++ · C# · Java · SQL</text>
+    <path d="M56 126.5 H612" class="hair"/>
+  </g>
+  <g class="up" style="animation-delay:0.42s">
+    <text x="56" y="150" class="mono mute" font-size="10.5">02</text>
+    <text x="86" y="150" class="mono cap">FRONTEND</text>
+    <text x="196" y="150.5" class="ink2" font-size="15.5">React · Next.js · Tailwind CSS · Redux · Vite</text>
+    <path d="M56 164.5 H612" class="hair"/>
+  </g>
+  <g class="up" style="animation-delay:0.54s">
+    <text x="56" y="188" class="mono mute" font-size="10.5">03</text>
+    <text x="86" y="188" class="mono cap">BACKEND</text>
+    <text x="196" y="188.5" class="ink2" font-size="15.5">FastAPI · Django · Node.js</text>
+    <path d="M56 202.5 H612" class="hair"/>
+  </g>
+  <g class="up" style="animation-delay:0.66s">
+    <text x="56" y="226" class="mono mute" font-size="10.5">04</text>
+    <text x="86" y="226" class="mono cap">DATABASES</text>
+    <text x="196" y="226.5" class="ink2" font-size="15.5">PostgreSQL · MongoDB · Supabase</text>
+    <path d="M56 240.5 H612" class="hair"/>
+  </g>
+  <g class="up" style="animation-delay:0.78s">
+    <text x="56" y="264" class="mono mute" font-size="10.5">05</text>
+    <text x="86" y="264" class="mono cap">AGENTS</text>
+    <text x="196" y="264.5" class="ink2" font-size="15.5">LangGraph · LangChain · PyTorch</text>
+    <path d="M56 278.5 H612" class="hair"/>
+  </g>
+  <g class="up" style="animation-delay:0.90s">
+    <text x="56" y="302" class="mono mute" font-size="10.5">06</text>
+    <text x="86" y="302" class="mono cap">INFRA</text>
+    <text x="196" y="302.5" class="ink2" font-size="15.5">AWS · Azure · Docker · Kubernetes · CI/CD</text>
+    
+  </g>
+  <g class="up" style="animation-delay:0.40s">
+    <ellipse cx="738" cy="330" rx="84" ry="9" fill="url(#shadow)">
+      <animate attributeName="rx" values="84;74;84" dur="5s" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1" repeatCount="indefinite"/>
+    </ellipse>
+  </g>
+  <g class="up" style="animation-delay:0.50s"><g>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="5s" begin="-2.25s" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1" repeatCount="indefinite"/>
+      <g class="edge"><polygon points="660,262 738,301 738,314 660,275" fill="#8A8A8A"/><polygon points="738,301 816,262 816,275 738,314" fill="#1B1B1B"/><polygon points="738,223 816,262 738,301 660,262" fill="#B5B5B5"/></g>
+      <path d="M824 269.5 h14" class="hair"/>
+      <text x="844" y="273.0" class="mono mute" font-size="10">06</text>
+    </g></g>
+  <g class="up" style="animation-delay:0.60s"><g>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="5s" begin="-1.80s" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1" repeatCount="indefinite"/>
+      <g class="edge"><polygon points="660,228 738,267 738,280 660,241" fill="#8A8A8A"/><polygon points="738,267 816,228 816,241 738,280" fill="#1B1B1B"/><polygon points="738,189 816,228 738,267 660,228" fill="#BEBEBE"/></g>
+      <path d="M824 235.5 h14" class="hair"/>
+      <text x="844" y="239.0" class="mono mute" font-size="10">05</text>
+    </g></g>
+  <g class="up" style="animation-delay:0.70s"><g>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="5s" begin="-1.35s" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1" repeatCount="indefinite"/>
+      <g class="edge"><polygon points="660,194 738,233 738,246 660,207" fill="#8A8A8A"/><polygon points="738,233 816,194 816,207 738,246" fill="#1B1B1B"/><polygon points="738,155 816,194 738,233 660,194" fill="#C7C7C7"/></g>
+      <path d="M824 201.5 h14" class="hair"/>
+      <text x="844" y="205.0" class="mono mute" font-size="10">04</text>
+    </g></g>
+  <g class="up" style="animation-delay:0.80s"><g>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="5s" begin="-0.90s" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1" repeatCount="indefinite"/>
+      <g class="edge"><polygon points="660,160 738,199 738,212 660,173" fill="#8A8A8A"/><polygon points="738,199 816,160 816,173 738,212" fill="#1B1B1B"/><polygon points="738,121 816,160 738,199 660,160" fill="#D0D0D0"/></g>
+      <path d="M824 167.5 h14" class="hair"/>
+      <text x="844" y="171.0" class="mono mute" font-size="10">03</text>
+    </g></g>
+  <g class="up" style="animation-delay:0.90s"><g>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="5s" begin="-0.45s" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1" repeatCount="indefinite"/>
+      <g class="edge"><polygon points="660,126 738,165 738,178 660,139" fill="#8A8A8A"/><polygon points="738,165 816,126 816,139 738,178" fill="#1B1B1B"/><polygon points="738,87 816,126 738,165 660,126" fill="#D9D9D9"/></g>
+      <path d="M824 133.5 h14" class="hair"/>
+      <text x="844" y="137.0" class="mono mute" font-size="10">02</text>
+    </g></g>
+  <g class="up" style="animation-delay:1.00s"><g>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="5s" begin="-0.00s" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1" repeatCount="indefinite"/>
+      <g class="edge"><polygon points="660,92 738,131 738,144 660,105" fill="#8A8A8A"/><polygon points="738,131 816,92 816,105 738,144" fill="#1B1B1B"/><polygon points="738,53 816,92 738,131 660,92" fill="#E2E2E2"/></g>
+      <path d="M824 99.5 h14" class="hair"/>
+      <text x="844" y="103.0" class="mono mute" font-size="10">01</text>
+    </g></g>
+</svg>
