@@ -1,0 +1,48 @@
+<svg viewBox="0 0 432 278" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif">
+  <style>
+    :root { --bg1:#FFFFFF; --bg2:#F1F1F1; --line:#E4E4E4; --ink:#0A0A0A; --ink2:#3A3A3A; --mute:#8A8A8A; --mono:#6A6A6A; --shadow:#000000; --edge:#FFFFFF; }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg1:#131316; --bg2:#08080A; --line:#2B2B30; --ink:#FFFFFF; --ink2:#D0D0D0; --mute:#8E8E93; --mono:#A0A0A6; --shadow:#5A5A5A; --edge:#F2F2F2; }
+    }
+    .ink { fill: var(--ink) } .ink2 { fill: var(--ink2) } .mute { fill: var(--mute) }
+    .b { font-weight: 700; fill: var(--ink) }
+    .mono { font-family: 'SF Mono','JetBrains Mono',Menlo,Consolas,monospace; }
+    .cap { font-size: 10.5px; letter-spacing: 3px; fill: var(--mute) }
+    .hair { stroke: var(--line) } .edge { stroke: var(--edge); stroke-width: 1.3; stroke-linejoin: round }
+    .up { opacity: 0; transform: translateY(8px); animation: up .9s cubic-bezier(.2,.7,.2,1) forwards; }
+    @keyframes up { to { opacity: 1; transform: none } }
+    .rule { stroke: var(--ink); stroke-width: 2; stroke-dasharray: 44; stroke-dashoffset: 44; animation: draw .8s ease-out .6s forwards; }
+    @keyframes draw { to { stroke-dashoffset: 0 } }
+    .nudge { animation: nudge 2.4s ease-in-out infinite; } @keyframes nudge { 50% { transform: translate(3px,-3px) } }
+    @media (prefers-reduced-motion: reduce) {
+      .up,.rule,.spine { animation: none; opacity: 1; transform: none; stroke-dashoffset: 0; }
+    }
+  </style>
+  <defs>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" style="stop-color:var(--bg1)"/><stop offset="1" style="stop-color:var(--bg2)"/>
+    </linearGradient>
+    <radialGradient id="shadow">
+      <stop offset="0" style="stop-color:var(--shadow)" stop-opacity=".28"/>
+      <stop offset=".6" style="stop-color:var(--shadow)" stop-opacity=".07"/>
+      <stop offset="1" style="stop-color:var(--shadow)" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x=".5" y=".5" width="431" height="277" rx="22" fill="url(#card)" class="hair"/>
+  <g class="up" style="animation-delay:0.15s">
+    <rect x="32" y="37" width="7" height="7" class="ink"/>
+    <text x="50" y="44.5" class="mono cap">HIGHLIGHT / 02</text>
+  </g>
+  <text class="up ink" style="animation-delay:0.30s" x="30" y="112" font-size="50" font-weight="300" letter-spacing="-1.5">Winner</text>
+  <path class="rule" d="M32 134 H76"/>
+  <g class="up" style="animation-delay:0.50s">
+    <text x="32" y="164" class="b" font-size="14.5">QTMA McKinsey Pitch Competition · Nucleus</text>
+    <text x="32" y="186" class="ink2" font-size="13.5">Director of Developers at QTMA: 4 product teams,</text><text x="32" y="205" class="ink2" font-size="13.5">10+ engineers mentored.</text>
+  </g>
+  <g class="up" style="animation-delay:0.65s">
+    <path d="M32 232.5 H400" class="hair"/>
+    <text x="32" y="256" class="mono mute" font-size="10.5" letter-spacing=".3">github.com/kayne-lee/nucleusapp</text>
+    <g class="nudge"><path d="M389 255 L398 246 M391.5 246 H398 V252.5" style="stroke:var(--ink)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></g>
+  </g>
+  <g class="up" style="animation-delay:0.50s"><g><animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="4s" begin="-0.0s" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1" repeatCount="indefinite"/><g class="edge"><polygon points="334,65.0 348,72.0 348,88.0 334,81.0" fill="#8A8A8A"/><polygon points="348,72.0 362,65.0 362,81.0 348,88.0" fill="#1B1B1B"/><polygon points="334,65.0 348,58.0 362,65.0 348,72.0" fill="#C8C8C8"/></g></g><g><animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="4s" begin="-0.5s" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1" repeatCount="indefinite"/><g class="edge"><polygon points="312,76 326,83.0 326,99.0 312,92" fill="#8A8A8A"/><polygon points="326,83.0 340,76 340,92 326,99.0" fill="#1B1B1B"/><polygon points="312,76 326,69.0 340,76 326,83.0" fill="#D2D2D2"/></g></g><g><animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="4s" begin="-1.0s" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1" repeatCount="indefinite"/><g class="edge"><polygon points="356,76 370,83.0 370,99.0 356,92" fill="#8A8A8A"/><polygon points="370,83.0 384,76 384,92 370,99.0" fill="#1B1B1B"/><polygon points="356,76 370,69.0 384,76 370,83.0" fill="#DCDCDC"/></g></g><g><animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="4s" begin="-1.5s" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1" repeatCount="indefinite"/><g class="edge"><polygon points="334,87.0 348,94.0 348,110.0 334,103.0" fill="#8A8A8A"/><polygon points="348,94.0 362,87.0 362,103.0 348,110.0" fill="#1B1B1B"/><polygon points="334,87.0 348,80.0 362,87.0 348,94.0" fill="#E6E6E6"/></g></g></g>
+</svg>
